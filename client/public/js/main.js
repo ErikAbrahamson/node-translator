@@ -84,7 +84,7 @@ function languages() {
     }
   }).done(function(data) {
     langs = JSON.parse(data);
-    setTimeout(createList(langs, codeArray), 500);
+    setTimeout(createList(langs, codeArray), 600);
   }).fail(function(error) {
     console.log(error.status);
   });
